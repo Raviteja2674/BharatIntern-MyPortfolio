@@ -1,0 +1,61 @@
+class node{
+	int data;
+	node next=null;
+}
+class link{
+	public static void main(String[] ar){
+		node head=new node();
+		node first=new node();
+		node sec=new node();
+		node three=new node();
+		head.data=100;
+		first.data=200;
+		sec.data=300;
+		three.data=400;
+		head.next=first;
+		first.next=sec;
+		sec.next=three;
+		three.next=null;
+		System.out.println("Printing the list:");
+		display(head);
+		System.out.println("Adding the new element at the back side");
+		node four=new node();
+		four.data=500;
+		node temp=head;
+		head=four;
+		four=temp;
+		head.next=four;
+		four.next=first;
+		System.out.println("Printing the list aftter adding at the first position");
+		display(head);
+		System.out.println("Deleting at front");
+		head=four;
+		head.next=first;
+		display(head);
+		System.out.println("Deleting at back");
+		sec.next=null;
+		display(head);
+		System.out.println("Deleting at middle");
+		int element=200;
+		delmiddle(head,element);
+		display(head);
+	}
+	public static void display(node n){
+		while(n!=null){
+			System.out.println(n.data);
+			n=n.next;
+		}
+	}
+	public static void delmiddle(node n,int d){
+		node pre=null;
+		node h=n;
+		while(n!=null){
+			 if(n.data==d){
+				pre.next=n.next;
+			}
+			pre=n;
+			n=n.next;
+
+		}
+	}
+}

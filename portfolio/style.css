@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Barriecito&family=Cinzel&family=Courgette&family=Dancing+Script:wght@700&family=Lumanosimo&family=Rubik+Wet+Paint&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    width: 100%;
+    height: 98px;
+    position: fixed;
+    display: flex;
+
+    margin-top: -36px;
+    align-items: end;
+    background-color: rgb(252, 254, 255);
+}
+
+#navbar .logo {
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding-left: 73px;
+
+
+
+}
+
+.navelements {
+
+    padding-left: 398px;
+}
+
+.navelements li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 10px 45px;
+}
+
+.navelements li a {
+    text-decoration: none;
+    color: rgba(32, 32, 31, 0.812);
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.navelements li a:hover {
+
+    color: black;
+    font-size: 30px;
+}
+
+#imgclass {
+    background: url(imgages/homepic.jpg) no-repeat center center/cover;
+    content: "";
+    height: 772px;
+    width: 85%;
+    margin: 36px 76px;
+    padding: 0px 20px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.onimage {
+    font-family: 'Lumanosimo', cursive;
+    font-size: x-large;
+    color: rgb(12, 3, 91);
+    margin-right: 722px;
+    text-align: center;
+    margin-bottom: 217px;
+}
+
+.MPbtn {
+    margin-top: 10px;
+    padding: 7px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgba(175, 161, 161, 0.618);
+    border: 2px solid transparent;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.MPbtn:hover {
+    background-color: rgba(175, 161, 161, 0.851);
+    border: 2px solid rgb(181, 179, 176);
+    font-weight: bold;
+
+}
+
+/* sec 2 */
+.mpart {
+    display: flex;
+}
+
+.mpart img {
+    margin-top: 31px;
+    margin-left: 90px;
+    height: 690px;
+}
+
+.aboutpara {
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: justify;
+    margin-right: 87px;
+    font-family: 'Lumanosimo';
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.aboutpara h5 {
+    font-size: larger;
+    text-decoration: underline;
+    text-decoration-color: rgba(64, 64, 64, 0.592);
+}
+
+.aboutpara h3 {
+    font-size: larger;
+    text-decoration: underline;
+    text-decoration-color: rgba(64, 64, 64, 0.592);
+
+}
+
+.mhead {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    padding-top: 37px;
+}
+
+.container {
+
+    margin: 30px 77px;
+    background-color: rgba(227, 227, 227, 0.489);
+
+}
+
+.box {
+    border: 2px solid rgb(182, 184, 182);
+    margin: 37px 114px;
+    display: flex;
+    background-color: aliceblue;
+
+}
+
+.box1 {
+    height: 404px;
+}
+
+.box1 img {
+    height: 473px;
+    width: 478px;
+
+}
+
+.box2 {
+
+    display: flex;
+    flex-direction: column;
+    padding: 3px 60px;
+
+
+}
+
+.upbox {
+    display: flex;
+}
+
+.upbox img {
+    height: 36px;
+    width: 39px;
+    margin-right: 10px;
+}
+
+.admindetails img {
+    height: 15px;
+    width: 15px;
+
+
+}
+
+.date {
+    display: flex;
+}
+
+.admin {
+    display: flex;
+}
+
+.para h2 {
+    font-family: 'Cinzel', serif;
+    padding: 10px;
+    padding-top: 60px;
+    text-align: start;
+
+}
+
+.para p {
+    font-family: 'Lumanosimo', cursive;
+    padding: 30px 0px;
+    text-align: start;
+}
+
+hr {
+    margin: 30px 10px;
+    margin-bottom: 10px;
+
+}
+
+.last {
+    display: flex;
+
+}
+
+.last P {
+    margin: 20px 7px;
+}
+
+.last .loveimg {
+    height: 30px;
+    width: 30px;
+    margin-left: 203px;
+    cursor: pointer;
+
+}
+
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    margin: 20px 60px;
+
+}
+
+.box266 {
+    font-family: 'Lumanosimo', cursive;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(227, 227, 227, 0.489);
+    width: fit-content;
+
+
+}
+
+.box266 p {
+    padding-top: 20px;
+}
+
+.box12 img {
+    height: 450px;
+    width: 589px;
+}
+
+.crline {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#con {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.crline p {
+    font-size: 12px;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2px;
+
+
+}
+
+.foot {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
+.foot img {
+
+    padding: 20px;
+    height: 33px;
+
+
+}
